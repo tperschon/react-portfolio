@@ -7,8 +7,8 @@ function Header() {
         <header className="flex-header">
             <div className="heading-container">
                 <h1 className="main-heading">
-                    <Link className="main-heading-link" to="/">
-                        Campaign Tracker
+                    <Link className="heading-link" to="/">
+                        Tim Perschon
                     </Link>
                 </h1>
             </div>

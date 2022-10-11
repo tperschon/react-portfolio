@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 function Nav() {
     return (
         <ul className="nav nav-list">
-            <li><Link className="nav item" to="/aboutme">About Me</Link></li>
-            <li><Link className="nav item" to="/portfolio">Portfolio</Link></li>
-            <li><Link className="nav item" to="/contact">Contact</Link></li>
-            <li><Link className="nav item" to="/resume">Resume</Link></li>
+            <li><Link className="nav nav-item" to="/aboutme">About Me</Link></li>
+            <li><Link className="nav nav-item" to="/portfolio">Portfolio</Link></li>
+            <li><Link className="nav nav-item" to="/contact">Contact</Link></li>
+            <li><Link className="nav nav-item" to="/resume">Resume</Link></li>
         </ul>
     );
 };
