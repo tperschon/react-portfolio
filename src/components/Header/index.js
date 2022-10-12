@@ -9,7 +9,7 @@ import About from '../Aboutme';
 
 function Header() {
     // get/set currentPage from state with function to set it
-    const [currentPage, setCurrentPage] = useState('About');
+    const [currentPage, setCurrentPage] = useState('Aboutme');
     // switch case to render different content with default being the about
     const renderPage = () => {
         switch (currentPage) {

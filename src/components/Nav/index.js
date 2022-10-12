@@ -8,7 +8,7 @@ function Nav({ currentPage, handlePageChange }) {
         className="nav-list">
             <li><a
                     className={currentPage === 'Aboutme' ? "nav-item active" : "nav-item"}
-                    href="/#About"
+                    href="/#Aboutme"
                     onClick={()=>handlePageChange('Aboutme')}
                 >About Me</a>
             </li>

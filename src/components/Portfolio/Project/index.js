@@ -1,10 +1,9 @@
 import React from "react";
-import { Link, BrowserRouter as Routes, Route } from "react-router-dom";
 
-function Project() {
+function Project(props) {
     return (
-        <div>
-            "TEST"
+        <div className="portfolio-item">
+            <a href={props.item.url}><img  src={props.item.image} alt={props.item.alt}></img></a>
         </div>
     );
 };
