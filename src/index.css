@@ -69,3 +69,21 @@ code {
   max-width:  100px; /* so image doesn't scale too large */
   border-radius: 50%;
 }
+
+.footer {
+  background-color: var(--backgrounds);
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-link {
+  padding-left: 1%;
+  padding-right: 1%;
+}
