@@ -1,18 +1,21 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin, faStackExchange } from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
     return (
         <footer className="footer">
-            <div className="heading-container">
-                <h1 className="heading">
-                    <Link className="heading-link" to="/">
-                        Tim Perschon
-                    </Link>
-                </h1>
-                <FontAwesomeIcon icon={faGithub} />
+            <div className="footer-container">
+                    <a href="https://github.com/tperschon">
+                        <FontAwesomeIcon icon={faGithub} />
+                    </a>
+                    <a className="footer-link" href="https://www.linkedin.com/in/timothy-perschon-969250237/">
+                        <FontAwesomeIcon icon={faLinkedin} />
+                    </a>
+                    <a className="footer-link" href="https://stackoverflow.com/users/18758369/tperschon">
+                        <FontAwesomeIcon icon={faStackExchange} />
+                    </a>
             </div>
         </footer>
     );
