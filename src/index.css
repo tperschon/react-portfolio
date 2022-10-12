@@ -17,6 +17,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  justify-content: center;
+  width: 100%;
 }
 
 code {
@@ -46,16 +48,20 @@ code {
 
 .header {
   font-size: 36px; 
-  width: 96%;;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 2%;
-  padding-right: 2%;
   background-color: var(--backgrounds);
 }
+
+.heading-container {
+  padding-left: 2%;
+}
+
 .nav-container {
   align-items: center;
+  padding-right: 2%;
 }
 
 .heading-link { 
@@ -70,7 +76,6 @@ code {
 .nav-list {
   margin: 0;
   padding: 0;
-  width: 100%;
   display: flex;
   justify-content: space-between;
 }
@@ -81,6 +86,10 @@ code {
 
 .active {
   text-shadow: 0px 0px 10px var(--brightborder);
+}
+
+.header {
+  width: 100%;
 }
 
 .header img {
@@ -114,15 +123,13 @@ code {
 
 .content {
   font-size: 24px;
-  width: 96%;
-  padding-left: 2%;
-  padding-right: 2%;
+  width: 100%;
+  padding: 0 2%;
 }
 
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  width: 96%;
   padding-left: 2%;
   padding-right: 2%;
   justify-content: space-around;
