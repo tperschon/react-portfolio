@@ -8,7 +8,7 @@ function Resume() {
         <section className="resume">
             <h1>Resume</h1>
             <div className="download">
-                Download my <a href={resume} download="ExampleTextFile">resume.</a>
+                Download my <a href={resume} download="ExampleTextFile">resume</a>.
             </div>
             <h2>Front-end Proficiencies:</h2>
             <ul className="front-end">

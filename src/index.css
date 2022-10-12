@@ -37,6 +37,11 @@ code {
 .nav-item {
   size: 300px;
   text-decoration: none;
+  color: var(--secondary-hightlight);
+}
+
+.nav-item:hover {
+  color: var(--primary-highlight);
 }
 
 .header {
@@ -55,6 +60,11 @@ code {
 
 .heading-link { 
   text-decoration: none;
+  color: var(--secondary-hightlight);
+}
+
+.heading-link:hover {
+  color: var(--primary-highlight);
 }
 
 .nav-list {
@@ -140,12 +150,15 @@ code {
 }
 
 .text-input {
-  width: 25%;
+  min-width: 100px;
+  max-width: 200px;
   height: 20px;
 }
 
 .contact textarea {
-  width: 50%;
+  min-width: 50%;
+  width: 800px;
+  max-width: 100%;
   height: 200px;
 }
 
@@ -169,4 +182,18 @@ code {
 
 .disabled {
   opacity: 50%;
+}
+
+.resume {
+  width: 96%;
+  padding: 0 2%;
+  font-size: 20px;
+}
+
+.resume h1 {
+  font-size: 36px;
+}
+
+.resume h2 {
+  font-size: 24px;
 }
