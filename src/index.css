@@ -1,4 +1,15 @@
+:root {         /* root for variables */
+  /* color palette */
+  --strips: #2a2a69;
+  --text-light: #b9b8b4;
+  --backgrounds: #1f1a1af3;
+  --brightborder: #df9100;
+  --primary-highlight: #8b0000;
+  --secondary-hightlight: #2a85ec;
+}
+
 body {
+  background-color: var(--backgrounds);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -17,12 +28,44 @@ code {
 }
 
 .nav-list {
-    list-style: none;
-    list-style-type: none;
-    display: flex;   
+  list-style: none;
+  list-style-type: none;
+  display: flex;   
 }
 
 .nav-item {
   size: 300px;
   text-decoration: none;
+}
+
+.header { 
+  width: 96%;;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: var(--backgrounds);
+}
+.nav-container {
+  width: 30%;
+  align-items: center;
+}
+
+.heading-link { 
+  text-decoration: none;
+}
+
+.nav-list {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header img {
+  width: 100%; /* so image does not cause scrolling */
+  max-width:  100px; /* so image doesn't scale too large */
+  border-radius: 50%;
 }
