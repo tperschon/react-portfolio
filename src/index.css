@@ -124,3 +124,49 @@ code {
   max-height: 400px;
   overflow: hidden;
 }
+
+.error {
+  color: var(--primary-highlight);
+}
+
+.hidden {
+  display: none;
+}
+
+.contact {
+  width: 96%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.text-input {
+  width: 25%;
+  height: 20px;
+}
+
+.contact textarea {
+  width: 50%;
+  height: 200px;
+}
+
+.contact h2 {
+  font-size: 50px;
+}
+
+.contact label {
+  font-size: 35px;
+}
+
+.submit-button {
+  background-color: var(--strips);
+  color: var(--text-light);
+  font-size: 20px;
+  border-style: groove;
+  border-color: var(--backgrounds);
+  border-radius: 5%;
+  cursor: pointer;
+}
+
+.disabled {
+  opacity: 50%;
+}

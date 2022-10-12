@@ -4,9 +4,9 @@ import Project from "./Project";
 
 function Portfolio() {
     return (
-        <div className="portfolio-list">
+        <section className="portfolio-list">
             {portfolioItems.map((item, i) => {return <Project item={item} key={i}/>})}
-        </div>
+        </section>
     );
 };
 

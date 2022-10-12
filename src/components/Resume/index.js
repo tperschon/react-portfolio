@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 
 function Contact() {
     return (
-        <div>
+        <section>
             "RESUME"
-        </div>
+        </section>
     );
 };
 
