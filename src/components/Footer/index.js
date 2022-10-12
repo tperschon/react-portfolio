@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin, faStackExchange } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin, faStackOverflow } from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
     const style = { fontSize: "75px" }
@@ -14,7 +14,7 @@ function Footer() {
                         <FontAwesomeIcon icon={faLinkedin} style={style}/>
                     </a>
                     <a className="footer-link" href="https://stackoverflow.com/users/18758369/tperschon">
-                        <FontAwesomeIcon icon={faStackExchange} style={style}/>
+                        <FontAwesomeIcon icon={faStackOverflow} style={style}/>
                     </a>
             </div>
         </footer>
