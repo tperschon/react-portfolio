@@ -8,27 +8,27 @@ function Nav({ currentPage, handlePageChange }) {
         className="nav-list">
             <li><a
                     className={currentPage === 'Aboutme' ? "nav-item active" : "nav-item"}
-                    href="/#Aboutme"
+                    href="/"
                     onClick={()=>handlePageChange('Aboutme')}
                 >About Me</a>
             </li>
             <li><a
                     className={currentPage === 'Portfolio' ? "nav-item active" : "nav-item"}
-                    href="/#Portfolio"
+                    href="/"
                     onClick={()=>handlePageChange('Portfolio')}
                 >Portfolio</a>
             </li>
             <li>
                 <a
                     className={currentPage === 'Contact' ? "nav-item active" : "nav-item"}
-                    href="/#Contact"
+                    href="/"
                     onClick={()=>handlePageChange('Contact')}
                 >Contact</a>
             </li>
             <li>
                 <a
                     className={currentPage === 'Resume' ? "nav-item active" : "nav-item"}
-                    href="/#Resume"
+                    href="/"
                     onClick={()=>handlePageChange('Resume')}
                 >Resume</a>
             </li>
