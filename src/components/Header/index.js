@@ -34,7 +34,7 @@ function Header() {
             <header className="header">
                 <div className="heading-container">
                     <h1 className="heading">
-                        <Link className="heading-link" to="/">
+                        <Link className="heading-link" to="/react-portfolio">
                             Tim Perschon
                         </Link>
                     </h1>
