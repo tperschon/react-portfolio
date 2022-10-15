@@ -2,8 +2,10 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faStackOverflow } from '@fortawesome/free-brands-svg-icons';
 
+// footer element that will have 3 FA icons with link functionality
 function Footer() {
-    const style = { fontSize: "75px" }
+    // makes the icons bigger via their font-size CSS
+    const style = { fontSize: "75px" };
     return (
         <footer className="footer">
             <div className="footer-container">
