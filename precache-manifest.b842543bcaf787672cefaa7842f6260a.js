@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "e6a79aef1649ad3399e9",
+    "revision": "d655ef7f59cc3ac84794",
     "url": "/react-portfolio/static/css/main.5af69658.chunk.css"
   },
   {
-    "revision": "e6a79aef1649ad3399e9",
-    "url": "/react-portfolio/static/js/main.e6a79aef.chunk.js"
+    "revision": "d655ef7f59cc3ac84794",
+    "url": "/react-portfolio/static/js/main.d655ef7f.chunk.js"
   },
   {
     "revision": "836e4380fe3f7816a983",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/pokedex.0c41ed77.png"
   },
   {
-    "revision": "42d05022c6c18047da8c97f62a52eb2a",
+    "revision": "bcd0f408b025f2e042e350129a0aba3b",
     "url": "/react-portfolio/index.html"
   }
 ];
