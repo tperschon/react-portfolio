@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/pokedex.0c41ed77.png"
   },
   {
-    "revision": "d613802d954f0b92faf8dc67d619aa62",
+    "revision": "3602f218b6e5e59d81bf78d18800668f",
     "url": "/react-portfolio/index.html"
   }
 ];
