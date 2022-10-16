@@ -48,7 +48,7 @@ The proficiencies are populated through a Proficiency component, being fed two a
 ![Resume Page](./images/resume.png)
 
 # Links
-If you're seeing this, you're likely already familiar with my github, but just in case, [here's my GitHub](https://github.com/tperschon)
+If you're seeing this, you're likely already familiar with my GitHub, but just in case, [here's my GitHub](https://github.com/tperschon)
 
 The deployed Portfolio can be found [here](https://tperschon.github.io/react-portfolio).
 
