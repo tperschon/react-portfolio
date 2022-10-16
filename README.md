@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Table of Contents
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Description](#Description)
 
-## Available Scripts
+[Usage](#Usage)
 
-In the project directory, you can run:
+[Links](#Links)
 
-### `npm start`
+[Questions](#Questions)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Description
+```
+Source code for my portfolio.
+```
+- Uses React to allow a 1-page view, rendering only subsections of the entire document when necessary
+- Demonstrates knowledge of React, using components and other features
+- Utilizes Font/Fort Awesome for icons
+- Lacks a backend, so features are limited, but within scope of project
+```
+The first page you're taken to when visiting is the About Me. You'll see at the top the header and navigation bar, and the bottom the footer. These two elements persist through every page.
+```
+![About Me](./images/overview.png)
+```
+The footer has working links (utilizing icons) to different destinations that relate to me.
+```
+![Footer](./images/footer.png)
+```
+While each page clearly re-renders, you'll notice a corresponding change in the nav, a subtle highlight to show which page is being viewed.
 
-### `npm test`
+The Portfolio page renders a list of projects I've worked on. Each project is presented as a simple card, but additional context can be viewed by mousing over each project, such as the name and relevant links. The onMouseEnter and onMouseLeave events were used to achieve these effects.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Each project is populated via the Project component, being fed an imported array from portfolioItems.js, with each item being given as props.
+```
+![Portfolio Page](./images/portfolio.png)
+```
+The Contact page houses a form that one could presumably use to contact me via the site. Since this deployment lacks a backend, this will not actually function, but it at least showcases some verification for the form's fields via the onBlur event. 
 
-### `npm run build`
+The submit button will not work unless all inputs are filled. If an input gains and then loses focus, it will alert you that it needs to be filled. Additionally, the email address input has an extra verification requiring the entry to conform to a particular regex specification.
+```
+![Contact Page](./images/contactform.png)
+```
+The Resume page features a simple list of proficiencies, both backend and frontend, as well as a download link for my resume.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The proficiencies are populated through a Proficiency component, being fed two arrays imported as one object with properties frontend and backend from proficiencies.js.
+```
+![Resume Page](./images/resume.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Links
+If you're seeing this, you're likely already familiar with my github, but just in case, [here's my GitHub](https://github.com/tperschon)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The deployed Portfolio can be found [here](https://tperschon.github.io/react-portfolio).
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to [E-Mail](timperschon@gmail.com) me with any comments, questions, or advice.
